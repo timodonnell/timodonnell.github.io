@@ -3,7 +3,7 @@ the [Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/). I work o
 therapeutic cancer vaccines with [Nina Bhardwaj](https://icahn.mssm.edu/profiles/nina-bhardwaj),
 and my research aims to improve vaccine efficacy through better antigen
 selection. This often involves development of bioinformatics tools, which we
-release through the [OpenVax](https://github.com/openvax) initiative. 
+release through the [OpenVax](https://github.com/openvax) project. 
 
 From 2017-2020, I did a PhD advised by [Uri Laserson](https://twitter.com/laserson?lang=en)
 at Mount Sinai. My dissertation focused on T cell epitope prediction. I 
@@ -16,11 +16,11 @@ distributed computing approaches for analyzing cancer sequencing datasets. Prior
 I worked at [D.E. Shaw Research](https://www.deshawresearch.com/)
 (2009-2014) on analysis software for long timescale molecular dynamics simulations.
 
-In earlier days, I worked as a software engineer. I helped build out teams
+In earlier days, I worked as a software engineer. I helped build teams
 for several web startups and spent a summer interning at Google.
 
 ### Education
-Ph.D. in Biomedical Sciences (2020), [Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/)
+Ph.D. in Biomedical Sciences (2020), [Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/).
 Training area: Immunology
 
-B.S. in Mathematics & Computer Science (2009), [Brown University](https://cs.brown.edu)
+B.S. in Mathematics & Computer Science (2009), [Brown University](https://cs.brown.edu).

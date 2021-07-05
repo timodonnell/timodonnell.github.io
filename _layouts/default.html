@@ -59,31 +59,30 @@
           {% for post in site.posts %}
           {% for cat in post.categories %}
           {% if cat == 'research' %}
-          <tr>
+
+          {% if post.highlight %} <tr bgcolor="#ffffd0" >{% else %} <tr> {% endif %}
+
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              <a href="{{post.paper}}"><img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" /></a>
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
               <br>
               {{post.authors}}
               <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%B %Y" }}
+              <a href="{{post.paper}}"><em>{{post.venue}}</em>, {{ post.date | date: "%B %Y" }}</a>
               <br>
               {% if post.video %}
-              <a href="{{post.video}}">video</a> /
+              <a href="{{post.video}}">video</a>
               {% endif %}
               {% if post.code %}
-              <a href="{{post.code}}">code</a> /
+              <a href="{{post.code}}">code</a>
               {% endif %}
               {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
+              <a href="{{post.poster}}">poster</a>
               {% endif %}
               {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              {% if post.paper %}
-              <a href="{{post.paper}}">paper</a>
+              <a href="{{post.slides}}">slides</a>
               {% endif %}
               <p></p>
               {{ post.excerpt }}
@@ -100,7 +99,7 @@
             <td style="padding:0px">
               <br>
               <p style="text-align:center;font-size:small;">
-                Page design from <a href="https://leonidk.com/">Leonid Keselman's</a> adaptation of
+                Page design thanks to <a href="https://leonidk.com/">Leonid Keselman's</a> adaptation of
                 <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>.
               </p>
             </td>
