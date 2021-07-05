@@ -1,4 +1,4 @@
-I am a computational biologist at the [Tisch Cancer Institute](https://icahn.mssm.edu/research/tisch) at
+I am a bioinformatician at the [Tisch Cancer Institute](https://icahn.mssm.edu/research/tisch) at
 the [Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/). I work on
 therapeutic cancer vaccines with [Nina Bhardwaj](https://icahn.mssm.edu/profiles/nina-bhardwaj),
 and my research aims to improve vaccine efficacy through better antigen
