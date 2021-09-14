@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: research
+categories: research skip
 title:  "Preconfiguration of the antigen-binding site during affinity maturation of a broadly neutralizing influenza virus antibody"
 date: 2013-01-02
 venue: PNAS

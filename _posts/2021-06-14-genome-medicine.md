@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: research
+categories: research skip
 title:  "Landscape and selection of vaccine epitopes in SARS-CoV-2"
 date: 2021-06-14
 venue: Genome Medicine

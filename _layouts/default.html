@@ -50,14 +50,20 @@
         <hr />
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
+            <td style="padding:2.5% 2.5% 0% 2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:0% 2.5% 2.5% 2.5%;width:100%;vertical-align:middle">
+              <p>Only (co-)first author papers are listed here. For other papers, see <a href="https://scholar.google.com/citations?user=mlCWcdwAAAAJ&hl=en">Google Scholar</a>.</p>
             </td>
           </tr>
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
           {% for post in site.posts %}
+          {% unless post.categories contains 'skip' %}
           {% for cat in post.categories %}
           {% if cat == 'research' %}
 
@@ -91,6 +97,7 @@
           </tr>
           {% endif %}
           {% endfor %}
+          {% endunless %}
           {% endfor %}
         </table>
 
@@ -106,6 +113,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
           {% for post in site.posts %}
+          {% unless post.categories contains 'skip' %}
           {% for cat in post.categories %}
           {% if cat != 'research' %}
 
@@ -134,6 +142,7 @@
           </tr>
           {% endif %}
           {% endfor %}
+          {% endunless %}
           {% endfor %}
         </table>
 
