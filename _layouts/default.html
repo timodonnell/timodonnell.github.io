@@ -78,18 +78,21 @@
               {{post.authors}}
               <br>
               <a href="{{post.paper}}"><em>{{post.venue}}</em>, {{ post.date | date: "%B %Y" }}</a>
-              <br>
+              &nbsp;|&nbsp;
               {% if post.video %}
-              <a href="{{post.video}}">video</a>
+              <a href="{{post.video}}">video</a>&nbsp;
               {% endif %}
               {% if post.code %}
-              <a href="{{post.code}}">code</a>
+              <a href="{{post.code}}">code</a>&nbsp;
               {% endif %}
               {% if post.poster %}
-              <a href="{{post.poster}}">poster</a>
+              <a href="{{post.poster}}">poster</a>&nbsp;
+              {% endif %}
+              {% if post.pdf %}
+              <a href="{{post.pdf}}">pdf</a>&nbsp;
               {% endif %}
               {% if post.slides %}
-              <a href="{{post.slides}}">slides</a>
+              <a href="{{post.slides}}">slides</a>&nbsp;
               {% endif %}
               <p></p>
               {{ post.excerpt }}
