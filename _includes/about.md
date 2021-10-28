@@ -24,7 +24,7 @@ is used in four Phase I clinical trials at Mount Sinai.
 
 Prior to Mount Sinai, I was at [D.E. Shaw Research](https://www.deshawresearch.com/)
 (2009-2014) developing analysis software for molecular dynamics simulations. In earlier days, I worked as a
-software engineer, helped put together teams
+software engineer, helped put together engineering teams
 for several internet startups, and spent a summer interning at Google. I hold a
 B.S. in Math & Computer Science from [Brown University](https://cs.brown.edu) and
 a PhD in Immunology from the [Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/).
