@@ -12,7 +12,7 @@ new methods for T cell epitope prediction, which are implemented in the
 on antibody responses using phage immunoprecipitation
 sequencing ([PhIP-seq](https://en.wikipedia.org/wiki/PhIP-Seq)).
 
-In 2017, [Alex Rubinsteyn](https://www.med.unc.edu/genetics/directory/alex-rubinsteyn/),
+In 2018, [Alex Rubinsteyn](https://twitter.com/iskander),
 [Julia Kodysh](https://twitter.com/JuliaKodysh),
 [Tavi Nathanson](https://twitter.com/tavinathanson) and I along with
 [Nina Bhardwaj](https://icahn.mssm.edu/profiles/nina-bhardwaj) and the [Icahn
