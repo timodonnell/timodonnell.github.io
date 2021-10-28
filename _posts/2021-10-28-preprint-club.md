@@ -7,7 +7,6 @@ date:   2021-10-27
 venue: Nature Reviews Immunology
 image: /images/jc.png
 paper:  https://doi.org/10.1038/s41577-021-00644-6
-authors: "<u>O’Donnell T</u>, Vabret N"
 highlight: false
 pdf: https://www.nature.com/articles/s41577-021-00644-6.pdf
 highlight_link: https://www.biorxiv.org/content/10.1101/2021.09.10.457789v1
