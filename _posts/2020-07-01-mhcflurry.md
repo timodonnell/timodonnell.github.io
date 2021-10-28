@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: other
+categories: other skip
 title:  "MHCflurry"
 date: 2020-07-01
 image: /images/mhcflurry20.jpg

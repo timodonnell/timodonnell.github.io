@@ -48,16 +48,10 @@
           </tr>
         </table>
 
-        <hr />
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5% 2.5% 0% 2.5%;width:100%;vertical-align:middle">
-              <h2>Research</h2>
-            </td>
-          </tr>
-          <tr>
-            <td style="padding:0% 2.5% 2.5% 2.5%;width:100%;vertical-align:middle">
-              <p>Only (co-)first author papers are listed here. For other papers, see <a href="https://scholar.google.com/citations?user=mlCWcdwAAAAJ&hl=en">Google Scholar</a>.</p>
+              <h2>Recent research, software, thoughts</h2>
             </td>
           </tr>
         </table>
@@ -65,19 +59,17 @@
 
           {% for post in site.posts %}
           {% unless post.categories contains 'skip' %}
-          {% for cat in post.categories %}
-          {% if cat == 'research' %}
 
           {% if post.highlight %} <tr bgcolor="#ffffd0" >{% else %} <tr> {% endif %}
 
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <a href="{{post.paper}}"><img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" /></a>
             </td>
+            {% if post.categories contains 'research' %}
             <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              {{post.authors}}
-              <br>
+              {% if post.suptitle %}<a href="{{post.paper}}"><h3 style="color:darkblue;font-size:140%">{{post.suptitle}}</h3></a><br />{% endif %}
+              {% if post.title %}<a href="{{post.paper}}"><h3>{{post.title}}</h3></a><br />{% endif %}
+              {% if post.authors %}{{post.authors}}<br />{% endif %}
               <a href="{{post.paper}}"><em>{{post.venue}}</em>, {{ post.date | date: "%B %Y" }}</a>
               &nbsp;|&nbsp;
               {% if post.video %}
@@ -95,39 +87,14 @@
               {% if post.slides %}
               <a href="{{post.slides}}">slides</a>&nbsp;
               {% endif %}
+              {% if post.highlight_link %} <br /><i>Highlight of: </i><a href="{{post.highlight_link}}">{{post.highlight_text}}</a><br />{% endif %}
               <p></p>
               {{ post.excerpt }}
             </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endunless %}
-          {% endfor %}
-        </table>
-
-        <hr />
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Software</h2>
-            </td>
-          </tr>
-        </table>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
-          {% for post in site.posts %}
-          {% unless post.categories contains 'skip' %}
-          {% for cat in post.categories %}
-          {% if cat != 'research' %}
-
-          {% if post.highlight %} <tr bgcolor="#ffffd0" >{% else %} <tr> {% endif %}
-
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <a href="{{post.link}}"><img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" /></a>
-            </td>
+            {% else %}
             <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <a href="{{post.link}}"><h3>{{post.title}}</h3></a>
+              {% if post.suptitle %}<a href="{{post.link}}"><h3 style="color:darkblue;font-size:140%">{{post.suptitle}}</h3></a><br />{% endif %}
+              {% if post.title %}<a href="{{post.link}}"><h3>{{post.title}}</h3></a><br />{% endif %}
               {% if post.video %}
               <a href="{{post.video}}">video</a>
               {% endif %}
@@ -143,9 +110,8 @@
               <p></p>
               {{ post.excerpt }}
             </td>
+            {% endif %}
           </tr>
-          {% endif %}
-          {% endfor %}
           {% endunless %}
           {% endfor %}
         </table>
