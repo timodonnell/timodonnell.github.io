@@ -1,4 +1,4 @@
-I am a computational immunologist and software engineer. Since September 2022, I work as an
+I am a computational immunologist and software engineer. I work as an
 [independent consultant](/consulting) helping clients
 develop better vaccines and biologics using machine learning. I also develop
 open source software, often as part of the [OpenVax](https://github.com/openvax) project.
