@@ -1,6 +1,7 @@
 I am a computational immunologist and software engineer. Since September 2022, I work as an
-[independent consultant](/consulting) helping
-develop better vaccines and biologics using machine learning.
+[independent consultant](/consulting) helping clients
+develop better vaccines and biologics using machine learning. I also develop
+open source software, often as part of the [OpenVax](https://github.com/openvax) project.
 
 From 2020-2022, I was a senior scientist at the [Tisch Cancer Institute](https://icahn.mssm.edu/research/tisch) at
 the [Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/). I worked on
@@ -18,13 +19,11 @@ sequencing ([PhIP-seq](https://en.wikipedia.org/wiki/PhIP-Seq)).
 
 In 2018, [Alex Rubinsteyn](https://twitter.com/iskander),
 [Julia Kodysh](https://twitter.com/JuliaKodysh),
-[Tavi Nathanson](https://twitter.com/tavinathanson) and I along with
-[Nina Bhardwaj](https://icahn.mssm.edu/profiles/nina-bhardwaj) and the [Icahn
-Institute](https://icahn.mssm.edu/research/genomics) launched the 
+[Tavi Nathanson](https://twitter.com/tavinathanson) and I launched the 
 [OpenVax](https://github.com/openvax) project to develop open source tools
 for selecting cancer vaccines. This grew out of work with
 [Jeff Hammerbacher](https://www.hammerlab.org/) (2014-2017). The OpenVax tools
-have seen wide adoption by research groups and companies worldwide.
+continue to be extended and have seen wide adoption by research groups and companies worldwide.
 
 Prior to Mount Sinai, I worked at [D.E. Shaw Research](https://www.deshawresearch.com/)
 (2009-2014) developing analysis software for molecular dynamics simulations.

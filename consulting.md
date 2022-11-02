@@ -3,21 +3,25 @@ layout: page
 title: Consulting
 ---
 
-I approach consulting as a scientific collaboration. I find it extremely
-satisfying to work closely with clients to address their
-needs with attention to the larger scientific and business context. 
+I find it extremely satisfying to help ambitious clients develop new therapies
+and technologies. I approach consulting as a scientific collaboration, and I
+put a lot of energy into understanding the larger scientific and business context
+for each problem I take on.
 
 My deliverables are usually computationally-generated lead sequences/compounds,
-predictive models, or bioinformatic workflows. I can also advise on
-technical strategy, experimental design, and software engineering practice.
+predictive models, or software. I can also advise on
+technical strategy, experimental design, bioinformatic approaches, and software
+engineering practice.
 
-My work focuses on two areas:
-* *Tumor immunity and immuno-informatics*: Cancer
+I focus on two areas:
+* **Tumor immunity and immuno-informatics**<br />Cancer
 antigen discovery and T cell epitope prediction, bioinformatic workflows for 
 clinical application of cancer vaccines, design and analysis of sequencing,
 immunopeptidomics or immunoprofiling experiments
-* *Computational structural biology for vaccines and biologics*: Immunogen design for a desired antibody
-response, optimization of biologics (e.g. de-immunization, stability enhancements)
+
+* **Computational structural biology for vaccines and biologics**<br /> Immunogen 
+design for a desired antibody response, smart library design, de-immunization or
+other optimization of biologics
 
 I give preference to projects that have the potential to address a major
 unmet medical need and/or release some part of any developed software as open source. 
