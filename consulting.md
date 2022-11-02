@@ -9,17 +9,17 @@ and I put a lot of energy into fully understanding the scientific and
 business context for each problem I take on.
 
 I focus on two problem domains:
-* **Tumor immunity and immuno-informatics**<br />Cancer
-antigen discovery and T cell epitope prediction, bioinformatic workflows for 
+* **Tumor immunity and immuno-informatics**<br />
+Cancer antigen discovery and T cell epitope prediction, bioinformatic workflows for 
 clinical application of cancer vaccines, design and analysis of sequencing,
 immunopeptidomics or immunoprofiling experiments
 
-* **Computational structural biology for vaccines and biologics**<br /> Immunogen 
-design for a desired antibody response, smart library design, de-immunization and
-other optimization of biologics
+* **Protein design for vaccines and biologics**<br />
+Engineered immunogens, computationally-informed library design, de-immunization
+of biologics
 
-The deliverables for my projects are typically computationally-generated lead
-sequences/compounds, predictive models, or software. I can also advise on
+The deliverables for my projects are typically candidate
+sequences/compounds, predictive models, or software. I also advise on
 technical strategy, hiring, experimental design, bioinformatic approaches, and software
 engineering practice.
 
