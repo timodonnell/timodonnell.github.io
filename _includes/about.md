@@ -4,7 +4,7 @@ machine learning models. I also occasionally work with biotechs as a [technical 
 in my spare time. 
 
 Prior to Open Athena, I spent a year at a [focused research organization](https://www.convergentresearch.org/about-fros) called [Imprint](https://www.imprint.org/)
-that is trying to decode disease information hidden in immune receptor repertoires.
+that is working to decode disease information hidden in immune receptor repertoires.
 
 From 2020-2022, I was a senior scientist at the [Tisch Cancer Institute](https://icahn.mssm.edu/research/tisch) at
 the [Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/). I worked on
