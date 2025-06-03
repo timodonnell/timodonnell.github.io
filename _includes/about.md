@@ -1,5 +1,5 @@
 I'm an immunologist and software engineer. I work at 
-[Open Athena](https://www.openathena.ai/), a non-profit that helps academic groups develop large
+[Open Athena](https://www.openathena.ai/), a non-profit that helps academic scientists develop large
 machine learning models. I also occasionally work with biotechs as a [technical consultant](https://inferenceprojects.com)
 in my spare time.
 
