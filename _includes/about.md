@@ -1,6 +1,7 @@
 I'm an immunologist and software engineer. I work at 
 [Open Athena](https://www.openathena.ai/), a non-profit that helps researchers develop large
-machine learning models. I also occasionally work with biotechs as an [independent consultant](https://inferenceprojects.com). 
+machine learning models. I also occasionally work with biotechs as a [technical consultant](https://inferenceprojects.com)
+in my spare time. 
 
 Prior to Open Athena, I spent a year at a [focused research organization](https://www.convergentresearch.org/about-fros) called [Imprint](https://www.imprint.org/)
 that is trying to decode disease information hidden in immune receptor repertoires.
