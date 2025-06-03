@@ -1,8 +1,8 @@
-I am an immunologist and software engineer. I currently work at 
+I'm Tim, an immunologist and software engineer. I work at 
 [Open Athena](https://www.openathena.ai/), a non-profit that helps academic scientists develop large
-machine learning models. I also occasionally do some [independent consulting](https://inferenceprojects.com) at
-the intersection of immunology and machine learning. Prior to this, I spent a year working
-at a [focused research organization](https://www.convergentresearch.org/about-fros) called [Imprint](https://www.imprint.org/) that is working to decode the information hidden in immune receptor repertoires.
+machine learning models. I also occasionally help biotechs as an [independent consultant](https://inferenceprojects.com),
+working at the intersection of immunology and machine learning. Prior to this, I spent a year
+at a [focused research organization](https://www.convergentresearch.org/about-fros) called [Imprint](https://www.imprint.org/) that aims to decode disease information hidden in immune receptor repertoires.
 
 From 2020-2022, I was a senior scientist at the [Tisch Cancer Institute](https://icahn.mssm.edu/research/tisch) at
 the [Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/). I worked on
