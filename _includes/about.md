@@ -1,13 +1,14 @@
-I am a computational immunologist and software engineer. I work as an
-[independent consultant](https://inferenceprojects.com) helping clients
-develop better vaccines and biologics using machine learning. I also develop
-open source software, often as part of the [OpenVax](https://github.com/openvax) project.
+I am an immunologist and software engineer. I currently work at 
+[Open Athena](https://www.openathena.ai/), a non-profit that helps academic scientists develop large
+machine learning models. I also occasionally do some [independent consulting](https://inferenceprojects.com) at
+the intersection of immunology and machine learning. Prior to this, I spent a year working
+at a [focused research organization](https://www.convergentresearch.org/about-fros) called [Imprint](https://www.imprint.org/) that is working to decode the information hidden in immune receptor repertoires.
 
 From 2020-2022, I was a senior scientist at the [Tisch Cancer Institute](https://icahn.mssm.edu/research/tisch) at
 the [Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/). I worked on
 therapeutic cancer vaccines with [Nina Bhardwaj's group](https://icahn.mssm.edu/profiles/nina-bhardwaj) 
-with the goal of helping these emerging therapies benefit more patients
-through better antigen selection. We ultimately launched four Phase I clinical
+with the goal of getting these therapies to benefit more patients
+through better antigen selection. We ultimately launched [four](https://clinicaltrials.gov/study/NCT02721043) [Phase](https://clinicaltrials.gov/study/NCT03223103) [I](https://clinicaltrials.gov/study/NCT03359239) [clinical](https://clinicaltrials.gov/study/NCT05010200)
 trials at Mount Sinai to evaluate our platform for a fully personalized peptide
 vaccine targeting tumor neoantigens.
 
@@ -17,18 +18,15 @@ new methods for T cell epitope prediction, which are implemented in the
 on antibody responses using phage immunoprecipitation
 sequencing ([PhIP-seq](https://en.wikipedia.org/wiki/PhIP-Seq)).
 
-In 2018, [Alex Rubinsteyn](https://twitter.com/iskander),
-[Julia Kodysh](https://twitter.com/JuliaKodysh),
-[Tavi Nathanson](https://twitter.com/tavinathanson) and I launched the 
+In 2018, I helped launch the 
 [OpenVax](https://github.com/openvax) project to develop open source tools
-for selecting cancer vaccines. This grew out of work with
+for designing cancer vaccines. This grew out of work with
 [Jeff Hammerbacher](https://www.hammerlab.org/) (2014-2017). The OpenVax tools
-continue to be extended and have seen wide adoption by research groups and companies worldwide.
+continue to be developed and have seen wide adoption by research groups and companies worldwide.
 
 Prior to Mount Sinai, I worked at [D.E. Shaw Research](https://www.deshawresearch.com/)
-(2009-2014) developing analysis software for molecular dynamics simulations.
-Before this, I worked as a
-software engineer, helped put together engineering teams
+(2009-2014) on analysis software for molecular dynamics simulations.
+Before that, I helped build engineering teams
 for several internet startups, and spent a summer interning at Google. I hold a
 B.S. in Math & Computer Science from [Brown University](https://cs.brown.edu) and
 a PhD in Immunology from the [Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/).
