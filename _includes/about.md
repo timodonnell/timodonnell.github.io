@@ -14,7 +14,7 @@ through better antigen selection. We ultimately launched [four](https://clinical
 trials at Mount Sinai to evaluate our platform for a fully personalized peptide
 vaccine targeting tumor neoantigens.
 
-From 2017-2020, I was a PhD student advised by [Uri Laserson](https://twitter.com/laserson?lang=en). My [dissertation](/pdfs/TimODonnell-dissertation.pdf) introduced
+From 2017-2020, I was a PhD student advised by Uri Laserson. My [dissertation](/pdfs/TimODonnell-dissertation.pdf) introduced
 new methods for T cell epitope prediction, which are implemented in the
 [MHCflurry](https://github.com/openvax/mhcflurry) package. I also did some work
 on antibody responses using phage immunoprecipitation
@@ -29,6 +29,7 @@ continue to be developed and have seen wide adoption by research groups and comp
 Prior to Mount Sinai, I worked at [D.E. Shaw Research](https://www.deshawresearch.com/)
 (2009-2014) on analysis software for molecular dynamics simulations.
 Before that, I helped build engineering teams
-for several internet startups, and spent a summer interning at Google. I hold a
-B.S. in Math & Computer Science from [Brown University](https://cs.brown.edu) and
+for several internet startups, and spent a summer interning at Google.
+
+I hold a B.S. in Math & Computer Science from [Brown University](https://cs.brown.edu) and
 a PhD in Immunology from the [Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/).
