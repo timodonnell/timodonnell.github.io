@@ -14,7 +14,7 @@ on antibody responses using phage immunoprecipitation
 sequencing ([PhIP-seq](https://en.wikipedia.org/wiki/PhIP-Seq)).
 * I helped launch the [OpenVax](https://github.com/openvax) project
 to develop open source tools for designing cancer vaccines. The OpenVax tools
-have seen wide adoption by research groups and companies worldwide. OpenVax grew out of earlier work with [Jeff Hammerbacher](https://www.hammerlab.org/) at Mount Sinai (2014-2017).
+have seen wide adoption by research groups and companies worldwide. This grew out of earlier work with [Jeff Hammerbacher](https://www.hammerlab.org/) at Mount Sinai (2014-2017).
 
 Prior to Mount Sinai, I worked at [D.E. Shaw Research](https://www.deshawresearch.com/)
 (2009-2014) on analysis software for molecular dynamics simulations.
