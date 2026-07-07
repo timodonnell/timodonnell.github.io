@@ -1,140 +1,34 @@
 <!DOCTYPE HTML>
 <html lang="en">
-
 <head>
   <title>{{ site.name }}</title>
-
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-
   <meta name="author" content="{{ site.name }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta name="description" content="{{ site.name }}">
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr style="padding:0px">
-            <td style="padding:0% 2.5%;width:60%;vertical-align:top">
-              <h1>
-                Tim O'Donnell
-              </h1>
-              <p style="text-align:center;font-weight:bold">
-                  About /
-                  <a href="mailto:&#116;&#105;&#109;&#111;&#100;&#111;&#110;&#110;&#101;&#108;&#108;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">Email</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/timodonnell">GitHub</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?user=mlCWcdwAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://bsky.app/profile/timodonnell.bsky.social">Bluesky</a> &nbsp;
-                  <!-- <a href="/pdfs/TimODonnell-CV.pdf">CV</a> / -->
-                  <!-- <a href="/consulting">Consulting</a> -->
-                  <!-- <a href="https://docs.google.com/document/d/e/2PACX-1vS_DXfVnDL1EX5UqOcPDF30JUstDWz1OvoBXNpTRZa9IUBZzM2EQheOaU-WU_6XYrjpRD5o30-yyRXy/pub">CV</a> -->
-              </p>
-            </td>
-          </tr>
-          <tr style="padding:0px">
-            <td style="padding:0% 2.5%;width:60%;vertical-align:top">
-              {% capture my_include %}{% include about.md %}{% endcapture %}
-              {{ my_include | markdownify }}
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%;vertical-align:top">
-              <img style="width:100%;max-width:100%;vertical-align:top" alt="profile photo" src="images/profile.png">
-            </td>
-          </tr>
-        </table>
+  <main class="site-shell">
+    <header class="site-header">
+      <h1 class="site-title">Tim O'Donnell</h1>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="is-active" href="{{ site.baseurl }}/">about</a>
+        <a href="mailto:&#116;&#105;&#109;&#111;&#100;&#111;&#110;&#110;&#101;&#108;&#108;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">email</a>
+        <a href="https://github.com/timodonnell">github</a>
+        <a href="https://scholar.google.com/citations?user=mlCWcdwAAAAJ&hl=en">scholar</a>
+        <a href="https://bsky.app/profile/timodonnell.bsky.social">bluesky</a>
+        <a href="https://x.com/timodonnell">x</a>
+      </nav>
+    </header>
 
-        <!--
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5% 2.5% 0% 2.5%;width:100%;vertical-align:middle">
-              <h2>Selected research and software</h2>
-            </td>
-          </tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
-          {% for post in site.posts %}
-          {% unless post.categories contains 'skip' %}
-
-          {% if post.highlight %} <tr bgcolor="#ffffd0" >{% else %} <tr> {% endif %}
-
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <a href="{{post.paper}}"><img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" /></a>
-            </td>
-            {% if post.categories contains 'research' %}
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              {% if post.suptitle %}<a href="{{post.paper}}"><h3 style="color:darkblue;font-size:140%">{{post.suptitle}}</h3></a><br />{% endif %}
-              {% if post.title %}<a href="{{post.paper}}"><h3>{{post.title}}</h3></a><br />{% endif %}
-              {% if post.authors %}{{post.authors}}<br />{% endif %}
-              <a href="{{post.paper}}"><em>{{post.venue}}</em>, {{ post.date | date: "%B %Y" }}</a>
-              &nbsp;|&nbsp;
-              {% if post.video %}
-              <a href="{{post.video}}">video</a>&nbsp;
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a>&nbsp;
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a>&nbsp;
-              {% endif %}
-              {% if post.pdf %}
-              <a href="{{post.pdf}}">pdf</a>&nbsp;
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a>&nbsp;
-              {% endif %}
-              {% if post.highlight_link %} <br /><i>Highlight of: </i><a href="{{post.highlight_link}}">{{post.highlight_text}}</a><br />{% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-            {% else %}
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              {% if post.suptitle %}<a href="{{post.link}}"><h3 style="color:darkblue;font-size:140%">{{post.suptitle}}</h3></a><br />{% endif %}
-              {% if post.title %}<a href="{{post.link}}"><h3>{{post.title}}</h3></a><br />{% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a>
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a>
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a>
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a>
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-            {% endif %}
-          </tr>
-          {% endunless %}
-          {% endfor %}
-        </table>
-        -->
-
-        <br>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:center;font-size:small;">
-                Page design thanks to <a href="https://leonidk.com/">Leonid Keselman's</a> adaptation of
-                <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>.
-              </p>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
+    <section class="content">
+      <img class="portrait" alt="Profile photo" src="{{ site.baseurl }}/images/profile.png">
+      {% capture my_include %}{% include about.md %}{% endcapture %}
+      {{ my_include | markdownify }}
+    </section>
+  </main>
 </body>
-
 </html>
-
